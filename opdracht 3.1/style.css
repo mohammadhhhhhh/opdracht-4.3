@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  background-image: url(img/background.jpeg); 
+  background-repeat: no-repeat; 
+  font-family: "Goldman", cursive;
+  background-size: cover; 
+}
+
+
+.html-css{
+  background-image: none;
+
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+
+
+.htmltext{
+width: 15vw;
+height: 5vw;
+position: absolute;
+right: 10vw;
+top: 20vw;
+font-size: 1vw;
+left: 50vw;
+color: blue;
+}
+
+
+
+
+
+.indexhtml{
+  width: 50vw;
+  height: 10vw;
+  color: white; 
+  margin-left: 50vw;
+  margin-top: 45vh;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+}
+
+
+
+/* SQL */
+
+.page-background {
+  background-color: #000;
+  color: white;
+  font-family: 'Goldman', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: none;
+}
+
+
+.top-nav {
+  background-color: #00aaff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.top-nav li {
+  margin: 0 15px;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.sql-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 80vh; 
+}
+
+
+
+/* Stijl voor de tekstkader */
+.sql-description-box {
+  border: 2px solid #00aaff;
+  padding: 20px;
+  color: white;
+  max-width: 400px;
+  line-height: 1.5;
+  margin-right: 50px; /* Voegt ruimte toe tussen tekst en afbeelding */
+}
+
+
+
+.sql-description-box h3 span {
+  color: #ffaa00; 
+}
+
+
+.mysql-image {
+  width: 300px;
+  height: auto;
+}
+
+
+
+/* .SQL */
+
+
+
+
+
+/* PHP */
+
+
+.phphtml {
+  background-image: none;
+  font-size: 1vw;
+}
+
+.php-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.php-image {
+  width: 35vw;
+  margin-right: 20px;
+}
+
+.phpContainer {
+  width: 40vw;
+  background-color: aquamarine;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.phpMainTitle {
+  font-size: 3vw;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.phpTitle {
+  font-size: 2vw;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.phpText {
+  font-size: 1.2vw;
+  line-height: 1.6;
+  color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+  .php-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .php-image {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
+  .phpContainer {
+    width: 90%;
+  }
+
+  .phpMainTitle {
+    font-size: 5vw;
+  }
+
+  .phpTitle {
+    font-size: 4vw;
+  }
+
+  .phpText {
+    font-size: 3vw;
+  }
+} 
+  /* ----------------------------------------------- */
+
+/* javascript */
+
+/* Algemene opmaak reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+header {
+  background-color: #00BFFF;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.text p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.image img {
+  width: 150px;
+}
+

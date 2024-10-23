@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "P1-html-css-layout-main",
+			"path": "."
+		},
+		{
+			"name": "week3",
+			"path": "../../Documents/GitHub/p1-html-css/week3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "P1-html-css-layout-main"
+	}
+}
